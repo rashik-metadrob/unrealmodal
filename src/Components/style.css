@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.confirmContain {
+    font-family: "Inter", sans-serif;
+}
+
+.hide-scrollbar {
+    overflow: scroll;
+    /* Allows scrolling */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.hide-scrollbar-y{
+    overflow: hidden;
+    /* Allows scrolling */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.grey-container {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    /* padding: 17px; */
+  }
+
+  .mode{
+    touch-action: manipulation; /* Prevents pinch zoom */
+  }
